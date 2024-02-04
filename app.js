@@ -35,6 +35,7 @@ boxes.forEach((box)=>{
 resetbtn.addEventListener("click", ()=>{
     boxes.forEach((box)=>{
         box.innerText="";
+        box.classList.remove("winning-box");
     });
     winbox.innerText="";
     turn = true;
