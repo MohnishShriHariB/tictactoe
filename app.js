@@ -56,6 +56,7 @@ function winner() {
     }
     return false;
 }
+
 function isDraw() {
     return Array.from(boxes).every((box) => box.innerText !== "");
 }
